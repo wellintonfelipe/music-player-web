@@ -5,7 +5,7 @@ import adicionar from "../public/img/adicionar.svg";
 
 export function Section() {
   return `
-  <section class='sadbar dark'>
+  <section class='sadbar'>
     <button>
       <img class="logo vanilla" src="${coracao}"/>
     </button>

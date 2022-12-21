@@ -33,11 +33,11 @@
 }
 
 #app section {
+  padding: 12rem 4rem;
+  background-color: white;
   display: flex;
   flex-direction: column;
   gap: 8rem;
-  margin-top: 18rem;
-  padding: 1.2rem;
 }
 
 #app section button {
@@ -51,8 +51,6 @@
 
 #app section button img {
   width: 3rem;
-
-  fill: #1e64a3;
 }
 
 #app section button:hover {
@@ -63,10 +61,7 @@
 /* Estilização do Main */
 
 #app main {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  min-height: 100%;
   background-image: linear-gradient(
     45deg,
     var(--color-bg) 35%,
@@ -77,16 +72,28 @@
   padding: 4rem 6rem;
 }
 
-#app main .title {
+#app main .card {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#app main img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+#app main .card .title {
   /* dar o efeito de reticencias no texto ..... */
+  width: 32rem;
   color: var(--color-text);
-  width: 30%;
   text-overflow: ellipsis;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
 
-  font-size: 4.6rem;
+  font-size: 4rem;
   font-weight: 200;
 }
 #app main span {
